@@ -16,12 +16,28 @@
 
 ///////////////////////////
 //Date Types
-let isIsland = false;
-let population = 90000000;
-let country = 'Vietnam';
-let language;
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+// let isIsland = false;
+// let population = 90000000;
+// let country = 'Vietnam';
+// let language;
+// console.log(typeof isIsland);
+// console.log(typeof population);
+// console.log(typeof country);
+// console.log(typeof language);
 
+///////////////////////////
+//let, const, var
+let age = 22;
+age = 23;
+
+const birthYear = 1999;
+// birthYear = 2000; // not legal
+
+// const job; //not legal
+
+var job = 'dev';
+job = 'teacher';
+
+console.log(age);
+console.log(birthYear);
+console.log(job);
