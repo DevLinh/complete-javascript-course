@@ -90,11 +90,23 @@
 
 ///////////////////////////
 // Strings and Template Literals
-const firstName = "Linh";
-const job = 'dev';
-const birthYear = 1999;
-const introduction = 'My name is ' + firstName + " and I'm a " + (2021 - birthYear) + ' years old ' + job;
-console.log(introduction);
-const newIntroduction = `I'm ${firstName}, a ${2021 - birthYear} years old ${job}.\nHello all!`;
-console.log(newIntroduction);
+// const firstName = "Linh";
+// const job = 'dev';
+// const birthYear = 1999;
+// const introduction = 'My name is ' + firstName + " and I'm a " + (2021 - birthYear) + ' years old ' + job;
+// console.log(introduction);
+// const newIntroduction = `I'm ${firstName}, a ${2021 - birthYear} years old ${job}.\nHello all!`;
+// console.log(newIntroduction);
+
+///////////////////////////
+//If/Else condition
+
+const yourAge = 29;
+const legalAge = 18;
+const isOldEnough = yourAge >= legalAge;
+if (isOldEnough) {
+    console.log('You can start driving license');
+} else {
+    console.log('You can not start driving license');
+}
 
