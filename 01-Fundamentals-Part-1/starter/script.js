@@ -27,17 +27,49 @@
 
 ///////////////////////////
 //let, const, var
-let age = 22;
-age = 23;
+// let age = 22;
+// age = 23;
 
-const birthYear = 1999;
+// const birthYear = 1999;
 // birthYear = 2000; // not legal
 
 // const job; //not legal
 
-var job = 'dev';
-job = 'teacher';
+// var job = 'dev';
+// job = 'teacher';
 
-console.log(age);
-console.log(birthYear);
-console.log(job);
+// console.log(age);
+// console.log(birthYear);
+// console.log(job);
+
+
+///////////////////////////
+//Basic Operators
+// Math operators
+const now = 2021;
+const myAge = now - 1999;
+console.log(myAge);
+
+const myBrotherAge = now - 2004;
+console.log(myBrotherAge);
+
+console.log(myAge*2, myAge/5, 2 ** 3);
+const firstName = 'Linh';
+const lastName = 'Vo Van';
+console.log(firstName + ' ' +lastName);
+
+// Assignment operators
+let x = 10 + 5;
+x+=22;
+x-=10;
+x*=4;
+x++;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(myAge + 4 > 25);
+console.log(myBrotherAge >= myAge);
+
+const isFullAge = myAge >= 18;
+console.log(isFullAge);
