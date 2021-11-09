@@ -155,18 +155,42 @@
 
 ///////////////////////////
 // Equality Operators: == vs. ===
-const age = 18;
-if (age === "18") {
-    console.log('Strict Equal');
-}
+// const age = 18;
+// if (age === "18") {
+//     console.log('Strict Equal');
+// }
 
-if (age == 18) {
-    console.log('Double Equal');
-}
+// if (age == 18) {
+//     console.log('Double Equal');
+// }
 
-const favoriteNum = prompt('What is your favorite number > ');
-console.log(typeof favoriteNum);
+// const favoriteNum = prompt('What is your favorite number > ');
+// console.log(typeof favoriteNum);
 
-if (favoriteNum == 22) {
-    console.log('Nice');
+// if (favoriteNum == 22) {
+//     console.log('Nice');
+// }
+
+///////////////////////////
+//Boolean Logic
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+const isTired = false; // C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log('Sarah is able to drive!');
+} else {
+  console.log('Someone else should drive...');
 }
