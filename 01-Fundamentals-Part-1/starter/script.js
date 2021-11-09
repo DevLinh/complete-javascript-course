@@ -80,11 +80,21 @@
 
 ///////////////////////////
 // Coding Challenge #1
-const calculateBMI = (mass, height) => mass / (height**2);
-const markMass = 78;
-const markHeight = 1.69;
-const johnMass = 92;
-const johnHeight = 1.95;
-let markHigherBMI = calculateBMI(markMass, markHeight) > calculateBMI(johnMass, johnHeight);
-console.log(markHigherBMI);
+// const calculateBMI = (mass, height) => mass / (height**2);
+// const markMass = 78;
+// const markHeight = 1.69;
+// const johnMass = 92;
+// const johnHeight = 1.95;
+// let markHigherBMI = calculateBMI(markMass, markHeight) > calculateBMI(johnMass, johnHeight);
+// console.log(markHigherBMI);
+
+///////////////////////////
+// Strings and Template Literals
+const firstName = "Linh";
+const job = 'dev';
+const birthYear = 1999;
+const introduction = 'My name is ' + firstName + " and I'm a " + (2021 - birthYear) + ' years old ' + job;
+console.log(introduction);
+const newIntroduction = `I'm ${firstName}, a ${2021 - birthYear} years old ${job}.\nHello all!`;
+console.log(newIntroduction);
 
