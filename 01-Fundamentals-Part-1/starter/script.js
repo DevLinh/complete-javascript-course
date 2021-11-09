@@ -80,14 +80,14 @@
 
 ///////////////////////////
 // Coding Challenge #1
-const calculateBMI = (mass, height) => mass / (height**2);
-const markMass = 78;
-const markHeight = 1.69;
-const johnMass = 92;
-const johnHeight = 1.95;
-const markBMI = calculateBMI(markMass, markHeight);
-const johnBMI = calculateBMI(johnMass, johnHeight)
-let markHigherBMI =  markBMI > johnBMI;
+// const calculateBMI = (mass, height) => mass / (height**2);
+// const markMass = 78;
+// const markHeight = 1.69;
+// const johnMass = 92;
+// const johnHeight = 1.95;
+// const markBMI = calculateBMI(markMass, markHeight);
+// const johnBMI = calculateBMI(johnMass, johnHeight)
+// let markHigherBMI =  markBMI > johnBMI;
 // console.log(markHigherBMI);
 
 ///////////////////////////
@@ -116,8 +116,16 @@ let markHigherBMI =  markBMI > johnBMI;
 ///////////////////////////
 // Coding Challenge #2
 
-if (markHigherBMI) {
-    console.log(`Mark's BMI (${markBMI} is higher than John's (${johnBMI}))`);
-} else {
-    console.log(`Mark's BMI (${markBMI} is lower than John's (${johnBMI}))`);
-}
+// if (markHigherBMI) {
+//     console.log(`Mark's BMI (${markBMI} is higher than John's (${johnBMI}))`);
+// } else {
+//     console.log(`Mark's BMI (${markBMI} is lower than John's (${johnBMI}))`);
+// }
+
+///////////////////////////
+// Type Convention and Coercion
+console.log('9' - '5'); // 4
+console.log('19' - '13' + '17'); //617
+console.log('19' - '13' + 17); // 23
+console.log('123' < 57); // false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
