@@ -133,22 +133,40 @@
 ///////////////////////////
 //Truthy and Falsy values
 // 5 Falsy values: 0, '', undefined, null, NaN
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Jonas'));
-console.log(Boolean({}));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
-const money = 100;
-if (money) {
-  console.log("Don't spend it all ;)");
-} else {
-  console.log('You should get a job!');
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all ;)");
+// } else {
+//   console.log('You should get a job!');
+// }
+
+// let height = 0;
+// if (height) {
+//   console.log('YAY! Height is defined');
+// } else {
+//   console.log('Height is UNDEFINED');
+// }
+
+///////////////////////////
+// Equality Operators: == vs. ===
+const age = 18;
+if (age === "18") {
+    console.log('Strict Equal');
 }
 
-let height = 0;
-if (height) {
-  console.log('YAY! Height is defined');
-} else {
-  console.log('Height is UNDEFINED');
+if (age == 18) {
+    console.log('Double Equal');
+}
+
+const favoriteNum = prompt('What is your favorite number > ');
+console.log(typeof favoriteNum);
+
+if (favoriteNum == 22) {
+    console.log('Nice');
 }
